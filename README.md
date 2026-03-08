@@ -16,32 +16,11 @@ Each domain contains images with different visual characteristics which requires
 ## Project Workflow
 
 The CBIR system uses a multi stage processing pipeline comprising of:
-- Image processing based on image domains
+- Image preprocessing based on image domains
 - Colour, texture and shape descriptors feature extraction
 - Feature fusion to combine multiple features
 - Similarity computation to compare dataset and query images
 - Ranking and retrieval of most similar images
-
-The project uses images from various fields including natural images, paintings and brain MRI images.
-
-## Project Structure
-
-```
-CBIR-multifeature-retrieval
-│
-├── notebooks/
-│   ├── preprocessing_pipeline.ipynb
-│   └── weighted_fusion_pipeline.ipynb
-│
-├── data/
-│   └── query/
-│
-├── results/
-│
-├── requirements.txt
-├── .gitignore
-└── LICENSE
-```
 
 ## Setup
 Install required libraries
