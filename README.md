@@ -6,10 +6,7 @@ The project is a classical CBIR system which will retrieve similar images based 
 ## Dataset Domains
 
 The project is tested on images from multiple domains collected from Kaggle sources:
-
-Natural Images
-Brain MRI Images
-Paintings Images
+Natural Images, Brain MRI Images and Paintings
 
 Each domain contains images with different visual characteristics which requires domain specific preprocessing.
 
