@@ -21,10 +21,18 @@ The CBIR system uses a multi stage processing pipeline comprising of:
 
 ## Setup
 Install required libraries
-- pip install requirements.txt
+```
+pip install requirements.txt
+```
 
 Run the notebooks within the notebooks folder to execute preprocessing and retrieval pipelines.
 
 The query image should be given in data/query folder to test retrieval.
 
 This project demonstrates that a Content Based Image Retrieval system based on classical image processing techniques can be developed to retrieve visually similar images from different domains.
+
+## Contributors
+- Dhriti Gandhi
+- Aneri Kabrawala
+- Renee Vora
+- Pushti Sonak
